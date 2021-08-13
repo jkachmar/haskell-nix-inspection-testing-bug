@@ -1,0 +1,14 @@
+packages: *
+
+index-state: 2021-08-13T00:00:00Z
+
+constraints:
+  setup.Cabal <3.4
+
+package *
+  optimization: 0
+
+  haddock-html: true
+  haddock-hoogle: true
+  haddock-hyperlink-source: true
+  haddock-quickjump: true
